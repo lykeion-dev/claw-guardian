@@ -1,6 +1,8 @@
 # 🛡️ claw-guardian
 
-**AI Agent Safety Monitor for [OpenClaw](https://github.com/openclaw/openclaw)**
+**Because your AI agent doesn't come with a conscience — claw-guardian adds one.**
+
+Real-time safety watchdog for [OpenClaw](https://github.com/openclaw/openclaw). Monitors AI agent sessions, detects dangerous operations, and intervenes before damage is done.
 
 claw-guardian is a watchdog system that monitors AI agent sessions in real-time, detects dangerous or destructive behavior, and intervenes automatically — before damage is done.
 
