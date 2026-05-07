@@ -37,10 +37,10 @@ OpenClaw Agent → tool calls → claw-guardian (watchdog)
 
 | Order | Layer | What it detects | Method |
 |-------|-------|----------------|--------|
-| 1st | **L2** — Velocity | Token velocity spikes | Bytes/second threshold |
-| 2nd | **L1** — Similarity | Semantic repetition loops | Embedding similarity (cosine) |
+| 1st | **L1** — Velocity | Token velocity spikes | Bytes/second threshold |
+| 2nd | **L2** — Similarity | Semantic repetition loops | Embedding similarity (cosine) |
 | 3rd | **L3** — Exact Match | Exact repeated tool calls | Consecutive identical calls |
-| 4th | **Policy** | Dangerous operations | LLM-based judgment |
+| — | **Policy** | Dangerous operations | LLM-based judgment |
 
 ### Policy Enforcement
 
