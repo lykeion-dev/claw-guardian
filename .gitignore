@@ -1,0 +1,19 @@
+# Secrets
+safeguard.env
+*.env
+!.env.example
+
+# Generated files
+state/
+__pycache__/
+*.pyc
+watchdog.log
+watchdog.pid
+watchdog.lock
+monitor.log
+
+# Backup files
+*.bak
+*.bak-*
+*.bk
+*.corrupted
